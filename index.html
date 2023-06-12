@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <div class="bg-gray-800 text-white flex justify-between items-center px-4 py-3">
+        <div class="flex items-center">
+            <img src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="" class="w-8 h-8">
+            <span class="mx-2 font-semibold text-xl">Tailwind</span>
+        </div>
+        <div class="flex items-center">
+            <a href="#" class="mx-2">Home</a>
+            <a href="#" class="mx-2">About</a>
+            <a href="#" class="mx-2">Contact</a>
+        </div>
+    </div>
+    <div class="flex justify-center items-center h-screen">
+        <div class="bg-gray-200 p-4 rounded-lg shadow-2xl">
+            <h1 class="text-2xl font-semibold">Package Tracking</h1>
+            <form action="" class="mt-4">
+                <div class="flex flex-col">
+                    <label for="tracking" class="text-lg">Tracking Number</label>
+                    <input type="text" name="tracking" id="tracking" class="border-2 border-gray-400 rounded-lg p-2">
+                </div>
+                <div class="flex justify-center mt-4">
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Track</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="bg-gray-200 p-4 rounded-lg shadow-2xl">
+            <h1 class="text-2xl font-semibold">Login</h1>
+            <form action="" class="mt-4">
+                <div class="flex flex-col">
+                    <label for="email" class="text-lg">Email</label>
+                    <input type="email" name="email" id="email" class="border-2 border-gray-400 rounded-lg p-2">
+                </div>
+                <div class="flex flex-col mt-2">
+                    <label for="password" class="text-lg">Password</label>
+                    <input type="password" name="password" id="password"
+                        class="border-2 border-gray-400 rounded-lg p-2">
+                </div>
+                <div class="flex justify-center mt-4">
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
