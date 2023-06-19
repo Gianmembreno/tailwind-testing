@@ -36,9 +36,13 @@
         </div>
 
         <div class="bg-gray-200 p-4 rounded-lg shadow-2xl">
-            <h1 class="text-2xl font-semibold">Login</h1>
+            <h1 class="text-2xl font-semibold">Register</h1>
             <form action="" class="mt-4">
                 <div class="flex flex-col">
+                    <label for="name" class="text-lg">Name</label>
+                    <input type="text" name="name" id="name" class="border-2 border-gray-400 rounded-lg p-2">
+                </div>
+                <div class="flex flex-col mt-2">
                     <label for="email" class="text-lg">Email</label>
                     <input type="email" name="email" id="email" class="border-2 border-gray-400 rounded-lg p-2">
                 </div>
@@ -48,11 +52,28 @@
                         class="border-2 border-gray-400 rounded-lg p-2">
                 </div>
                 <div class="flex justify-center mt-4">
-                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Login</button>
+                    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Register</button>
                 </div>
             </form>
+
+            <div class="bg-gray-200 p-4 rounded-lg shadow-2xl">
+                <h1 class="text-2xl font-semibold">Login</h1>
+                <form action="" class="mt-4">
+                    <div class="flex flex-col">
+                        <label for="email" class="text-lg">Email</label>
+                        <input type="email" name="email" id="email" class="border-2 border-gray-400 rounded-lg p-2">
+                    </div>
+                    <div class="flex flex-col mt-2">
+                        <label for="password" class="text-lg">Password</label>
+                        <input type="password" name="password" id="password"
+                            class="border-2 border-gray-400 rounded-lg p-2">
+                    </div>
+                    <div class="flex justify-center mt-4">
+                        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Login</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
